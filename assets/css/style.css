@@ -1,0 +1,315 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 34px;
+  color: #777;
+  background: url("../images/concrete_seamless.png");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* header and nav */
+
+.head-name {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+.logo {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  margin-top: 30px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+  font-size: 20px;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+/* body */
+
+.section {
+  padding-top: 100px;
+  overflow: auto;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.section-inside {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.cat-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+
+
+.side {
+  width: 270px;
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.side h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
+}
+
+.social-icons {
+  width: 65px;
+  height: 65px;
+  margin-top: 8px;
+  margin-right: 5px;
+
+
+}
+
+
+.social-icons:last-child {
+  margin-right: 0;
+}
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 15px solid #4aaaa5;
+  height: 100px;
+  bottom: auto;
+}
+
+.footer {
+  text-align: center;
+  justify-content: end;
+  padding-top: 30px;
+}
+
+.name-nav {
+  float: left;
+  width: 300px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
+nav {
+    float: right;
+    display: inline;
+
+}
+
+header {
+  background: #ffffff;
+}
+
+h1 {
+  color: #4AAAA5;
+  font-size: 5em;
+  font-weight: bold;
+  padding-bottom: 20px;
+  border-bottom: 2px solid lightgray;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 3px;
+  padding-bottom: 5px;
+  line-height: 3;
+  position: relative;
+}
+
+p:last-child {
+  margin-bottom: 0;
+  line-height: 50px;
+  margin-top: 50px;
+
+}
+/*
+portfolio page */
+
+.portfolio-section {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.photo {
+  width: 274px;
+  height: 206px;
+  object-fit: cover;
+  float: left;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.photo:nth-child() {
+  float: right;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 0.5;
+  transition: .3s all ease-in-out;
+}
+
+.photo:hover > img {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.photo:hover > h3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(85, 82, 82);
+  cursor: pointer;
+}
+
+.photo h3 {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  background-color: #4AAAA5;
+  color: #fff;
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 22px;
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: .2s all ease-in-out;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+/* contact */
+
+
+label,
+#name,
+#mail,
+textarea {
+  display: block;
+  width: 100%;
+}
+
+#name,
+#mail,
+textarea {
+  height: 40px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 2px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+#button {
+  padding: 10px 30px;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+  transition: .3s all ease-in-out;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+
+
+#button:hover {
+    background-color: #507575;
+}
