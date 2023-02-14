@@ -74,6 +74,11 @@ nav a:first-child {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  /* float: left; */
+}
+
+.side-container {
+  display: inline;
 }
 
 .section-inside {
@@ -81,7 +86,7 @@ nav a:first-child {
   width: 100%;
   max-width: 650px;
   padding: 30px;
-  margin: 0 0 40px;
+  /* margin: 0 0 100px; */
   background: #fff;
   border: 1px solid #ddd;
 }
@@ -138,13 +143,12 @@ footer {
   background: #666;
   border-top: 15px solid #4aaaa5;
   height: 100px;
-  bottom: auto;
+  /* bottom: auto; */
 }
 
 .footer {
   text-align: center;
   justify-content: end;
-  padding-top: 30px;
 }
 
 .name-nav {
@@ -273,6 +277,14 @@ portfolio page */
 /* contact */
 
 
+/* .contact {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+} */
+
 label,
 #name,
 #mail,
@@ -285,7 +297,7 @@ textarea {
 #mail,
 textarea {
   height: 40px;
-  padding: 0 10px;
+  padding: 0 5px;
   font-size: 14px;
   border: 2px solid #ddd;
 }
