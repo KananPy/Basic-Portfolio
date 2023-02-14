@@ -124,9 +124,21 @@ nav a:first-child {
   height: 65px;
   margin-top: 8px;
   margin-right: 5px;
-
+  transition: .3s all ease-in-out;
 
 }
+
+.social-img {
+
+  transition: .3s all ease-in-out;
+
+}
+
+.social-img img:hover{
+
+  transform: scale(1.2);
+}
+
 
 
 .social-icons:last-child {
@@ -273,6 +285,7 @@ portfolio page */
   margin-top: 10px;
   margin-right: 25px;
 }
+
 
 /* contact */
 
