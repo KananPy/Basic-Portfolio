@@ -1,0 +1,30 @@
+.side {
+    width: 30%;
+    background-color: #fff;
+    padding: 10px 30px 30px 30px;
+    border: 1px #ddd solid;
+  }
+  
+  .side-text {
+      text-align: center;
+      font-size: 3vh;
+      border-bottom: 0.1vh solid #4aaaa5;
+      color: #4aaaa5;
+      font-weight: 600;
+  }
+  
+  .side a {
+    text-decoration: none;
+  }
+  
+  .social-img {
+    width: 35px;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.5 ease;
+    cursor: pointer;
+  }
+  
+  .side img:hover {
+    opacity: 0.8;
+  }
